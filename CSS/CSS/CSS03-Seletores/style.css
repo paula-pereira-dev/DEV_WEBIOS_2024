@@ -1,0 +1,35 @@
+#p1{
+ color: rgb(165, 108, 1);
+}
+
+#p2{
+color: blueviolet;
+}
+
+.divs{
+    background-color: aquamarine;
+}
+
+.h3{
+    background-color: rgb(255, 255, 255);
+    color: aquamarine;
+}
+#quero1{
+    background-color:rgb(255, 0, 0)
+    
+}
+
+#quero2{
+    background-color: blueviolet;
+}
+#link{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+#link2{
+    color: rgb(75, 75, 75);
+    font-size: 54px;
+}
+/*Sempre utilizar o # antes do ID/*
+
+/*Crie duas sections e dentro de cada uma crie uma tag h3 e uma tag a(link) coloque a cor de fundo da primeira tag section de vermelho, a segunda tag section deve ter a cor de fundo roxo, mude 

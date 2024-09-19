@@ -1,0 +1,42 @@
+body
+    /* {
+    background-image: url("./mike.jpg");
+    background-position: 50%;
+    background-attachment: fixed;
+    } */
+
+
+#p1
+    {
+    /* border-width: 2px;
+    border-color: aquamarine;
+    border-style: solid; */
+    border: dashed 15px aquamarine ;
+    }
+    #p2
+
+    {
+     text-shadow: 10px 10px 15px blueviolet;
+    }
+
+    img    
+    {
+        width: 200px;
+        
+    }
+    #mike
+    {
+        box-shadow: 3px 3px 3px indigo;
+    }
+
+    figure
+    {
+        border: 2px solid;
+        border-radius: 10px;
+    }
+
+    figcaption
+    {
+        text-align: center;
+    }
+
