@@ -14,14 +14,8 @@ color: blueviolet;
     background-color: rgb(255, 255, 255);
     color: aquamarine;
 }
-#quero1{
-    background-color:rgb(255, 0, 0)
-    
-}
 
-#quero2{
-    background-color: blueviolet;
-}
+
 #link{
     color: rgb(255, 255, 255);
     font-size: 35px;
@@ -29,6 +23,11 @@ color: blueviolet;
 #link2{
     color: rgb(75, 75, 75);
     font-size: 54px;
+}
+.quero{
+    background-color: rgb(250, 250, 250);
+    color: green;
+    border: black solid 2px;
 }
 /*Sempre utilizar o # antes do ID/*
 
