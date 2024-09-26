@@ -27,3 +27,33 @@ li:nth-of-type(3)
 {
     border: 1px solid orangered;
 }
+
+#P2::after
+{
+ content: "-Aqui nos addemos o after";
+ border: 1px dotted black;
+}
+#P2::before
+{
+    content: "aqui addemos before";
+    border: solid 2px red;
+}
+.P3::first-letter
+{
+    font-size: 4em;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.P3::first-line
+{
+    background-color: rgb(0, 255, 42);
+    color: white;
+
+}
+#P5::selection
+{
+ background-color: rgb(8, 238, 161);
+ color: black;
+}
