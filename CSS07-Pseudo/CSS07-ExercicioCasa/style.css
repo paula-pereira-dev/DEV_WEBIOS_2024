@@ -1,1 +1,159 @@
-.
+body
+ {
+    background-color: #fffffe;
+    font-family: Arial, sans-serif;
+    color: #533618;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;
+}
+
+
+.container
+ {
+    padding: 2em;
+    background-color: #C1C2BC; 
+    max-width: 1200px; 
+    width: 100%;       
+    margin: 0 auto;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+
+
+
+.section1
+ {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.image-container img 
+{
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover
+ {
+    transform: scale(1.05);
+}
+
+.summary 
+{
+    max-width: 60%;
+}
+
+.highlighted 
+{
+    background-color: #533618;
+    color: white;
+    padding: 0.2em;
+}
+
+.highlighted-text 
+{
+    background-color: #8C861C;
+    padding: 0.2em;
+    font-size: 1.5em;
+}
+
+.btn 
+{
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #8C861C;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover 
+{
+    background-color: #725436;
+}
+
+
+.section2 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.video-container iframe 
+{
+    max-width: 560px;
+}
+
+.info p 
+{
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+    
+}
+
+
+.section3 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+.news img 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news p 
+{
+    font-size: 1.5em;
+    color: #533618;
+}
+
+.news .btn 
+{
+    margin-top: 1em;
+}
+.news p::first-letter 
+{
+    font-size: 120%;
+    color: #533618;
+}
+
+
+::selection 
+{
+    background-color: #314A20;
+    color: white;
+}
+
+
+
+footer 
+{
+    text-align: center;
+    padding: 1em 0;
+    background-color: #533618;
+    color: white;
+    position: relative;
+}
+
+footer p::after 
+{
+    content: " | Todos os direitos reservados | Paula Pereira Santos";
+    display: block;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
