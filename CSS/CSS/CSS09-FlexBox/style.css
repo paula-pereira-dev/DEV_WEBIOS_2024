@@ -1,0 +1,28 @@
+ 
+ #container
+ {
+    height: 70vh;
+    display: flex;
+    /* flex-direction:row-reverse */
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: baseline;
+    
+ }
+ 
+ .item
+ {
+    border: 1px solid black;
+    width:  60px;
+    height: 60px;
+ }
+
+ .item-1{
+    height: 20px;
+    flex-grow: 1px;
+ }
+ .item-2
+
+ {
+    flex-grow: 10px;
+ }
